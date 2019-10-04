@@ -9,8 +9,6 @@ while b > 0:
     print(b, end=' ')
     b -= 1
 
-
-
 s = []
 c = 20
 print(sep='\n')
@@ -22,7 +20,7 @@ print(s)
 
 while True:
     d = int(input("Введите четное число: "))
-    if d%2 !=0 :
+    if d % 2 != 0 :
         print("Введено нечетное число. Повторите ввод")
     else:
         e = 0

@@ -1,4 +1,4 @@
-a = input("Vvedite stroky:")
+a = input("Введи строку:")
 if len(a) % 2:
    a1 = a[len(a) // 2 + 1:] + a[:len(a) // 2 + 1]
 else:
